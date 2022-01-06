@@ -3,7 +3,7 @@ class Form {
     this.input = createInput("").attribute("placeholder", "Ingresa tu nombre");
     this.playButton = createButton("Play");
     
-    this.resetButton = createButton("Reset");
+    this.resetButton = createButton("Reiniciar");
     this.titleImg = createImg("./assets/title.png", "game title");
     this.greeting = createElement("h2");
   }
